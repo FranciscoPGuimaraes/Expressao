@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icones">
+    <file>botao-de-pausa.png</file>
+    <file>direita.png</file>
+    <file>esquerda.png</file>
+    <file>home.png</file>
+  </qresource>
+  <qresource prefix="imagens_palavras">
+    <file>cachorro.png</file>
+  </qresource>
+  <qresource prefix="imagens_programa">
+    <file>fonemas.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="image_fonemas">
+    <file>fonemas.png</file>
+  </qresource>
+  <qresource prefix="frases_imagens">
+    <file>cachorro.png</file>
+  </qresource>
+  <qresource prefix="setas">
+    <file>botao-de-pausa.png</file>
+    <file>esquerda.png</file>
+    <file>direita.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>home.png</file>
+  </qresource>
+</RCC>
