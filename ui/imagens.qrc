@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="fotos">
+    <file>imagens/cachorro.png</file>
+    <file>imagens/fonemas.png</file>
+  </qresource>
+  <qresource prefix="icones">
+    <file>imagens/botao-de-pausa.png</file>
+    <file>imagens/esquerda.png</file>
+    <file>imagens/home.png</file>
+  </qresource>
+</RCC>

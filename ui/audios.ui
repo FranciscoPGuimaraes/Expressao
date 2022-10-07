@@ -207,7 +207,7 @@ border: 0;</string>
        <enum>QFrame::Raised</enum>
       </property>
      </widget>
-     <widget class="QFrame" name="frame_21">
+     <widget class="QFrame" name="audios">
       <property name="geometry">
        <rect>
         <x>35</x>
@@ -226,6 +226,86 @@ border: 0;</string>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
+      <widget class="QFrame" name="audio">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>591</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+	background-color: rgb(255, 255, 255);
+	border: 1px solid;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="audio_name">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>511</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 0</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="audio_rep">
+        <property name="geometry">
+         <rect>
+          <x>533</x>
+          <y>1</y>
+          <width>41</width>
+          <height>38</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>26</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QAbstractButton{
+	border-radius: 20px;
+	background-image: url(:/icones/imagens/botao-de-pausa.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+QAbstractButton:hover{
+	background-color: rgb(232, 232, 232);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
      </widget>
     </widget>
     <widget class="QPushButton" name="bt_toHome">
@@ -253,7 +333,8 @@ border: 0;</string>
       <string notr="true">QAbstractButton{
 	border: 1px solid black;
 	border-radius: 20px;
-	background-image: url(:/icones/home.png);
+	
+	background-image: url(:/icones/imagens/home.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -270,7 +351,7 @@ QAbstractButton:hover{
   </widget>
  </widget>
  <resources>
-  <include location="../imagens/imagens.qrc"/>
+  <include location="imagens.qrc"/>
  </resources>
  <connections/>
 </ui>

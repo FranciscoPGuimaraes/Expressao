@@ -127,7 +127,8 @@ border-radius: 150px;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QAbstractButton{
-background-image: url(:/icones/home.png);
+	
+	background-image: url(:/icones/imagens/home.png);
 	background-repeat: no-repeat;	
 	background-position: center;
 	border: 1px solid black;
@@ -224,8 +225,7 @@ background-color: rgb(98, 197, 0);
       </property>
       <property name="styleSheet">
        <string notr="true">QFrame{
-	
-	background-image: url(:/imagens_palavras/cachorro.png);
+	background-image: url(:/fotos/imagens/cachorro.png);
 	background-repeat: no-repeat;
 	border: 0;
 	border-radius: 20px;
@@ -411,7 +411,7 @@ background-color: rgb(231, 231, 231);
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{	
-	background-image: url(:/icones/direita.png);
+	background-image: url(:/icones/imagens/botao-de-pausa.png);
 	border: 0;
 	border-radius: 12px;
 	color: white;
@@ -475,7 +475,7 @@ border-radius: 15px;
   </widget>
  </widget>
  <resources>
-  <include location="../imagens/imagens.qrc"/>
+  <include location="imagens.qrc"/>
  </resources>
  <connections/>
 </ui>

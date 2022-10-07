@@ -280,7 +280,7 @@ background-color: 0;
       <string notr="true">QFrame{
 	border-radius: 10px;
 	background-color: 0;
-	background-image: url(:/imagens_programa/fonemas.png);
+	background-image: url(:/fotos/imagens/fonemas.png);
 }</string>
      </property>
      <property name="frameShape">
@@ -419,7 +419,7 @@ background-color: rgb(231, 231, 231);
       <string notr="true">QFrame{
 	border-radius: 10px;
 	background-color: 0;
-	background-image: url(:/imagens_programa/fonemas.png);
+	background-image: url(:/fotos/imagens/fonemas.png);
 }</string>
      </property>
      <property name="frameShape">
@@ -442,7 +442,7 @@ background-color: rgb(231, 231, 231);
       <string notr="true">QFrame{
 	border-radius: 10px;
 	background-color: 0;
-	background-image: url(:/imagens_programa/fonemas.png);
+	background-image: url(:/fotos/imagens/fonemas.png);
 }</string>
      </property>
      <property name="frameShape">
@@ -465,7 +465,7 @@ background-color: rgb(231, 231, 231);
       <string notr="true">QFrame{
 	border-radius: 10px;
 	background-color: 0;
-	background-image: url(:/imagens_programa/fonemas.png);
+	background-image: url(:/fotos/imagens/fonemas.png);
 }</string>
      </property>
      <property name="frameShape">
@@ -479,7 +479,7 @@ background-color: rgb(231, 231, 231);
   </widget>
  </widget>
  <resources>
-  <include location="../imagens/imagens.qrc"/>
+  <include location="imagens.qrc"/>
  </resources>
  <connections/>
 </ui>
