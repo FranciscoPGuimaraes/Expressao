@@ -299,7 +299,7 @@ border: 0;</string>
 	background-position: center;
 }
 QAbstractButton:hover{
-	background-color: rgb(232, 232, 232);
+	background-color: rgb(232, 232, 235);
 }</string>
         </property>
         <property name="text">
