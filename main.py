@@ -1,4 +1,4 @@
-from PyQt6 import QtWidgets, uic
+from PyQt6 import QtWidgets, uic, M
 import functions as f
 import ui_functions as ui
 
