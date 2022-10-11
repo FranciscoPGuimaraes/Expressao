@@ -251,9 +251,9 @@ border: 0;</string>
       <widget class="QFrame" name="audio">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>591</width>
+         <x>4</x>
+         <y>2</y>
+         <width>585</width>
          <height>41</height>
         </rect>
        </property>
@@ -295,9 +295,9 @@ border: 0;</string>
         <property name="geometry">
          <rect>
           <x>533</x>
-          <y>1</y>
-          <width>41</width>
-          <height>38</height>
+          <y>3</y>
+          <width>35</width>
+          <height>35</height>
          </rect>
         </property>
         <property name="minimumSize">
@@ -314,13 +314,14 @@ border: 0;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">QAbstractButton{
-	border-radius: 20px;
+	border-radius:17px;
+	border: 1px solid;
 	background-image: url(:/icones/imagens/botao-de-pausa.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 QAbstractButton:hover{
-	background-color: rgb(232, 232, 232);
+	background-color: rgb(232, 232, 235);
 }</string>
         </property>
         <property name="text">
